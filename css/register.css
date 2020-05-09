@@ -1,0 +1,51 @@
+.input-group {
+    margin: 22px 230px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.input-group button {
+    height: 30px;
+    position: absolute;
+    left: 86%;
+    margin-left: 0;
+}
+
+.input-group input {
+    border: 2px solid black;
+    width: 600px;
+    height: 20px;
+    padding: 3px 7px;
+    font-size: 17px;
+    float: right;
+}
+
+.checkbox-group {
+    margin: 11px 226px;
+}
+
+@media (max-width:1304px) {
+    .input-group {
+        margin: 18px 0px;
+    }
+
+    .input-group input {
+        width: 52%;
+    }
+
+    .checkbox-group {
+        margin: 11px -7px;
+    }
+
+    .input-group button {
+        margin-left: 70%;
+        margin-top: 10px;
+        position: sticky;
+        left: 97%;
+        height: 40%;
+    }
+
+}
