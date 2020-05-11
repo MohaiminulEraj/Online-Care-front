@@ -1,50 +1,54 @@
-body {
-  width: 100%;
-  padding: 0px;
-  margin: 0px;
-  text-decoration: none;
-  box-sizing: border-box;
+#searchForm {
+  margin-left: 355px;
+  border: 2px solid black;
 }
 
-form {
-  margin: 0 auto;
-  display: block;
-  width: 38%;
-}
-.navbar-brand {
-  width: 63%;
+.input-group {
+  margin-top: 195px;
 }
 
-div.searchBox {
-  margin-top: 35%;
+.input-group-text {
+  margin-right: 406px;
+  border: 2px solid;
 }
 
-/* .form-group {
-    margin: 22px 0;
-    top: 42px;
-  } */
-.form-group {
-  margin-bottom: 2.5rem;
+@media (max-width:1220px) {
+  .input-group-text {
+    margin-right: 254px;
+  }
+
+  #searchForm {
+    margin-left: 19%;
+  }
 }
 
-.form-group input {
-  margin: 0 auto;
-  position: absolute;
-  border: 1px solid black;
-  /* display: inline-block; */
-  display: block;
-  width: 38%;
-  padding-inline-end: 37px;
-  /* margin-bottom: 10%; */
-  /* width: 320px;
-    height: 22px;
-    padding: 2px 10px;
-    font-size: 15px;
-    float: right; */
+@media (max-width:900px) {
+  .input-group-text {
+    margin-right: 81px;
+  }
+
+  #searchForm {
+    margin-left: 13%;
+  }
 }
 
-.form-group i {
-  top: 7px;
-  left: 95%;
-  position: relative;
+#doclogin {
+  transform: translate(0, 0);
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#patientlogin {
+  transform: translate(0, 0);
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#logform {
+  margin-bottom: 10px;
+  border: 2px solid black;
 }
