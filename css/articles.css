@@ -20,19 +20,21 @@ textarea {
 }
 
 .update-button {
+    margin-bottom: -16px;
     float: right;
-    margin-bottom: -6px;
-    margin-right: 25.5%;
+    transform: translate(0px, -24px);
 }
 
 .appointment-button {
     float: right;
     margin-bottom: 16px;
-    margin-right: 21.5%;
+    /* margin-right: 21.5%; */
 }
 
-@media (max-width:767px) {
+@media (max-width:366px) {
     .update-button {
-        margin-right: 0;
+        float: left;
+        margin-bottom: 4px;
+        transform: translate(0px, 0px);
     }
 }
