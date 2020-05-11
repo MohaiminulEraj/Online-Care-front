@@ -1,4 +1,38 @@
-
-textarea {
+body {
     width: 100%;
 }
+
+fieldset {
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 490px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+textarea {
+    padding-left: 6px;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.update-button {
+    float: right;
+    margin-bottom: -6px;
+    margin-right: 25.5%;
+}
+
+.appointment-button {
+    float: right;
+    margin-bottom: 16px;
+    margin-right: 21.5%;
+}
+
+/* @media (max-width:1304px) {
+    .update-button {
+        margin-left: 47%;
+    }
+} */
