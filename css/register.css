@@ -12,6 +12,7 @@ label {
     position: absolute;
     left: 86%;
     margin-left: 0;
+    padding: 6px 13px;
 }
 
 .input-group input {
@@ -26,6 +27,7 @@ label {
 .checkbox-group {
     margin: 11px 226px;
 }
+
 
 @media (max-width:1304px) {
     .input-group {
