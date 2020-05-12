@@ -49,3 +49,10 @@ label {
     }
 
 }
+
+@media (max-width:440px) {
+    .input-group input {
+        width: 98.5%;
+        float: none;
+    }
+}

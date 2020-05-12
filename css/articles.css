@@ -28,6 +28,7 @@ textarea {
 .appointment-button {
     float: right;
     margin-bottom: 16px;
+    margin-top: 6px;
     /* margin-right: 21.5%; */
 }
 
