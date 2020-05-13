@@ -80,7 +80,6 @@
     </div>
   </div>
 
-
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
   </script>
@@ -94,8 +93,9 @@
     function loginClick() {
       var change = document.getElementById("loginclick");
       change.innerHTML =
-        '<div><div class="md-form"><input type="text" id="logform" class="form-control" placeholder="Username/Email" required></div><div class="md-form"><input type="password" id="logform" class="form-control" placeholder="Password" required></div><div><a href="files/articlepage.html" type="submit" class="btn btn-outline-success" style="float:right;" role="button">Submit</a></div>'
+        '<form action="files/articlepage.html" autocomplete="on"><div class="md-form"><input type="email" id="logform" class="form-control" placeholder="Enter your Email ID" required></div><div class="md-form"><input type="password" id="logform" class="form-control" placeholder="Enter your Password" required></div><input type="submit" class="btn btn-outline-success" style="float:right;" value="Submit"></form>'
     }
+    // method="POST" needs to be added in form
   </script>
 
 </body>
