@@ -1,145 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Article Page</title>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="output-onlinepngtools.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/articles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor Panel</title>
-    <link rel="shortcut icon" type="image/png" href="output-onlinepngtools.png" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../css/articles.css">
-
-</head>
-
-<body>
-
+  <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Sign in/Sign Out</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My Profile</a>
-                </li>
-            </ul>
-        </div>
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarCollapse"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign in/Sign Out</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Profile</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-
     <div class="container-fluid">
-        <a style="position: relative;" class="btn btn-outline-secondary" href="../index.html">Back To Home Page</a>
-        <a style="position: relative;" class="btn btn-outline-dark" href="reviewpage.html">Review Page</a>
-        <div>
-            <h2>Title</h2>
-        </div>
-        <div><span>Topic</span></div>
-        <div>
-            <span>Publisher Name</span>, <span>Published On</span>
-            <!-- <button type="button" class="btn-outline-danger update-button">Update Article</button> -->
-        </div>
+      <a
+        style="position: relative;"
+        class="btn btn-outline-secondary"
+        href="../index.html"
+        >Back To Home Page</a
+      >
+      <a
+        style="position: relative;"
+        class="btn btn-outline-dark"
+        href="reviewpage.html"
+        >Review Page</a
+      >
+      <div>
+        <h2>Title</h2>
+      </div>
+      <div><span>Topic</span></div>
+      <div><span>Publisher Name</span>, <span>Published On</span></div>
 
-        <form action="" method="POST" autocomplete="on" id='main' name='main'>
-            <div class="row">
-                <div class="col-md-9 form-group">
-                    <button type="button" class="btn-outline-danger update-button">Update Article</button>
-                    <fieldset class='chatbox' contenteditable='false'>
-                        pagination needs to be added using js
-                        <div>
-                            Symptoms<br>
-                            <span>desofSym</span>
-                        </div>
-                        <div>
-                            Description<br>
-                            <span>desDes</span>
-                            <span>media file</span>
-                        </div>
-                        <div>
-                            Diagnosis<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Remedies & Treatment <br>
-                            <span>desDes</span>
-                            <span>media file</span>
-                        </div>
-                        <div>
-                            Adverse Effect<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Prevention<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Causes<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Stages<br>
-                            <span>desDes</span>
-                            <span>media file</span>
-                        </div>
-                        <div>
-                            Medication and it's side effect<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Consequences<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Frequently asked questions and answers<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Reference<br>
-                            <span>desDes</span>
-                        </div>
-                        <div>
-                            Contributions<br>
-                            <span>First writer</span>
-                            <span>Editor</span>
-                            <span>Review Peers</span>
-                        </div>
-
-                    </fieldset>
-                    <button type="button" class="btn btn-outline-warning appointment-button">Make an
-                        appointment</button>
-                </div>
-                <div class="col-md-3">
-                    <span style="top: -19px; position: absolute; margin-top: 1%;">Feedback</span>
-                    <fieldset style="height: 434px;" name="" id=""></fieldset>
-                    <textarea name="" id="" placeholder="Give feedback..."></textarea>
-                    <button type="button" class="btn btn-outline-info"
-                        style="float: right; margin-bottom: 16px;">Post</button>
-                </div>
-            </div>
-        </form>
-        <div>
-            <span>000</span>Views <span>000</span>Likes <a href="#">Share</a>
-            <!-- <button type="button" class="btn btn-outline-info" style="float: right; margin-bottom: 16px;">Post</button> -->
-            <!-- <button type="button" class="btn btn-outline-warning appointment-button">Make an appointment</button> -->
+      <form action="" method="POST" autocomplete="on" id="main" name="main">
+        <div class="row">
+          <div class="col-md-9 form-group">
+            <button type="button" class="btn-outline-danger update-button">
+              Update Article
+            </button>
+            <fieldset class="chatbox" contenteditable="false">
+              pagination needs to be added using js
+              <div>
+                Symptoms<br />
+                <span>desofSym</span>
+              </div>
+              <div>
+                Description<br />
+                <span>desDes</span>
+                <span>media file</span>
+              </div>
+              <div>
+                Diagnosis<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Remedies & Treatment <br />
+                <span>desDes</span>
+                <span>media file</span>
+              </div>
+              <div>
+                Adverse Effect<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Prevention<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Causes<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Stages<br />
+                <span>desDes</span>
+                <span>media file</span>
+              </div>
+              <div>
+                Medication and it's side effect<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Consequences<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Frequently asked questions and answers<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Reference<br />
+                <span>desDes</span>
+              </div>
+              <div>
+                Contributions<br />
+                <span>First writer</span>
+                <span>Editor</span>
+                <span>Review Peers</span>
+              </div>
+            </fieldset>
+            <button
+              type="button"
+              class="btn btn-outline-warning appointment-button"
+            >
+              Make an appointment
+            </button>
+          </div>
+          <div class="col-md-3">
+            <span style="top: -19px; position: absolute; margin-top: 1%;"
+              >Feedback</span
+            >
+            <fieldset style="height: 434px;" name="" id=""></fieldset>
+            <textarea name="" id="" placeholder="Give feedback..."></textarea>
+            <button
+              type="button"
+              class="btn btn-outline-info"
+              style="float: right; margin-bottom: 16px;"
+            >
+              Post
+            </button>
+          </div>
         </div>
+      </form>
+      <div>
+        <span>000</span>Views <span>000</span>Likes <a href="#">Share</a>
+        <!-- <button type="button" class="btn btn-outline-info" style="float: right; margin-bottom: 16px;">Post</button> -->
+        <!-- <button type="button" class="btn btn-outline-warning appointment-button">Make an appointment</button> -->
+      </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
