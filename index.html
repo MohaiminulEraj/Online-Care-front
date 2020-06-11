@@ -107,36 +107,50 @@
         </div>
       </div>
     </div>
-
-    <div class="input-group">
-      <input
-        id="searchForm"
-        class="form-control"
-        type="text"
-        placeholder="Find Disease"
-        aria-label="Search"
-      />
-      <div class="input-group-append">
-        <span class="input-group-text" id="basic-text1"
-          ><i class="fas fa-search text-grey" aria-hidden="true"></i
-        ></span>
+    <form action="" method="get">
+      <div class="input-group">
+        <input
+          id="searchForm"
+          class="form-control"
+          type="text"
+          placeholder="Find Disease"
+          aria-label="Search"
+          name="disease"
+        />
+        <div class="input-group-append">
+          <button
+            style="cursor: pointer;"
+            class="input-group-text"
+            id="basic-text1"
+            type="submit"
+          >
+            <i class="fas fa-search text-grey" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
-    </div>
-    <div class="input-group" style="margin-top: 20px;">
-      <input
-        id="searchForm"
-        class="form-control"
-        type="text"
-        placeholder="Search by Symptoms"
-        aria-label="Search"
-      />
-      <div class="input-group-append">
-        <span class="input-group-text" id="basic-text1"
-          ><i class="fas fa-search text-grey" aria-hidden="true"></i
-        ></span>
+    </form>
+    <form action="" method="get">
+      <div class="input-group" style="margin-top: 20px;">
+        <input
+          id="searchForm"
+          class="form-control"
+          type="text"
+          placeholder="Search by Symptoms"
+          aria-label="Search"
+          name="symptoms"
+        />
+        <div class="input-group-append">
+          <button
+            style="cursor: pointer;"
+            class="input-group-text"
+            id="basic-text1"
+            type="submit"
+          >
+            <i class="fas fa-search text-grey" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
-    </div>
-
+    </form>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
