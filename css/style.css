@@ -12,7 +12,7 @@
   border: 2px solid;
 }
 
-@media (max-width:1220px) {
+@media (max-width: 1220px) {
   .input-group-text {
     margin-right: 254px;
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .input-group-text {
     margin-right: 81px;
   }
@@ -49,6 +49,7 @@
 }
 
 #logform {
-  margin-bottom: 10px;
+  margin-bottom: 7px;
+  margin-top: 6px;
   border: 2px solid black;
 }

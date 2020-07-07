@@ -65,7 +65,6 @@
         </ul>
       </div>
     </nav>
-
     <div class="modal fade" role="dialog" id="loginModal">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -87,7 +86,7 @@
               <div class="col text-center">
                 <button
                   class="btn btn-outline-success my-2"
-                  onclick="loginClick()"
+                  href="files/docLogin.html"
                 >
                   Login as a Doctor
                 </button>
@@ -97,7 +96,7 @@
               <div class="col text-center">
                 <button
                   class="btn btn-outline-danger my-2"
-                  onclick="loginClick()"
+                  href="files/patient_login.html"
                 >
                   Login as a Patient
                 </button>
@@ -107,7 +106,7 @@
         </div>
       </div>
     </div>
-    <form action="" method="get">
+    <form action="" method="GET" autocomplete="on">
       <div class="input-group">
         <input
           id="searchForm"
@@ -129,7 +128,7 @@
         </div>
       </div>
     </form>
-    <form action="" method="get">
+    <form action="" method="GET" autocomplete="on">
       <div class="input-group" style="margin-top: 20px;">
         <input
           id="searchForm"
@@ -164,13 +163,5 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script>
-      function loginClick() {
-        var change = document.getElementById("loginclick");
-        change.innerHTML =
-          '<form action="files/articlepage.html" autocomplete="on"><div class="md-form"><input type="email" id="logform" class="form-control" placeholder="Enter your Email ID" required></div><div class="md-form"><input type="password" id="logform" class="form-control" placeholder="Enter your Password" required></div><input type="submit" class="btn btn-outline-success" style="float:right;" value="Submit"></form>';
-      }
-      // method="POST" needs to be added in form
-    </script>
   </body>
 </html>
